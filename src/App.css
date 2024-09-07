@@ -1,0 +1,88 @@
+/* App.css */
+
+/* Global reset for margin, padding, and box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e8f5e9; /* Light green background */
+  color: #2e7d32; /* Dark green text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #1b5e20; /* Darker green for headings */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px; /* Increase padding to make navbar thicker */
+  background-color: #19691c; /* Light green for the navbar background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 80px; /* Set a fixed height for the navbar */
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin-right: 15px;
+  padding: 25px;
+  background-color: #49a74d; /* Button default color - lighter green */
+  color: white;
+  border-radius: 15px; /* Round-square shape */
+  border: 2px solid transparent;
+  text-align: center;
+  transition: 0.3s ease;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: #327234; /* Darker green on hover */
+  border: 2px solid #2e7d32; /* Dark green border */
+}
+
+/* Button styles for 'Watch Now' */
+button {
+  background-color: #66bb6a; /* Light green button */
+  color: white;
+  border: 2px solid transparent;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 15px; /* Round-square button */
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #2e7d32; /* Darker green on hover */
+  border: 2px solid #1b5e20;
+}
+
+/* Avatar styles */
+.avatar-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #66bb6a; /* Light green border */
+  transition: border-color 0.3s ease;
+}
+
+.avatar:hover {
+  border-color: #388e3c; /* Dark green border on hover */
+}

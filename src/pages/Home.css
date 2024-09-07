@@ -1,0 +1,37 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .home-content {
+    flex: 1;
+  }
+  
+  .app-name {
+    font-size: 3em;
+    color: #f0a500;
+    font-weight: bold;
+  }
+  
+  .app-description {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #800020;
+  }
+  
+  .watch-now-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #800020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .avatar-image img {
+    width: 300px;
+    height: auto;
+  }
+  

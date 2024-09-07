@@ -1,0 +1,48 @@
+.login-signup-container {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #f0a500;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .form-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .toggle-btn.active {
+    background-color: #800020;
+    color: white;
+    border-bottom: 2px solid #f0a500;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #800020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

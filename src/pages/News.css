@@ -1,0 +1,36 @@
+.news-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #f0a500;
+  }
+  
+  .topics-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .topic-btn {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  .topic-btn.active {
+    background-color: #800020;
+    color: white;
+  }
+  
+  .proceed-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #800020;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
